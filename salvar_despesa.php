@@ -5,9 +5,9 @@ error_reporting(E_ALL);
 
 // Configurações do banco de dados
 $servername = "localhost";
-$username = "usuario_financas"; // Usuário com privilégios limitados
-$password = 'ZeIRo5.2-Hb3t)cI'; // Sua senha do novo usuário, entre aspas simples
-$dbname = "gestao_despesas"; // Nome do seu banco de dados
+$username = "********"; // Usuário com privilégios limitados
+$password = '*********'; // Sua senha do novo usuário, entre aspas simples
+$dbname = "*********"; // Nome do seu banco de dados
 
 // Cria a conexão
 $conn = new mysqli($servername, $username, $password, $dbname);
